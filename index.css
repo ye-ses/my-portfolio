@@ -22,7 +22,7 @@
     background: linear-gradient(60deg, var(--secondary), 50%, var(--primary));
     width: 170px;
     height: 100%;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     align-self: start;
