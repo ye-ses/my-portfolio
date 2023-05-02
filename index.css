@@ -98,7 +98,7 @@
 
 .socialNav {
     display: inline-block;
-    font-size: 1.6em;
+    font-size: 1.8em;
     padding: 5px;
     max-height: 0.9em;
     margin: 0 5px;
@@ -131,7 +131,6 @@
 .socialNav span {
     font-size: .7em;
     background: none;
-    margin-top: 3em;
     margin-left: 1em;
 }
 
