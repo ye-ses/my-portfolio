@@ -16,19 +16,19 @@
     <div id="vue">
       <nav class="nav-bar">
         <div class="header">
-          <div class="a-box-text">
+          <div class="a-box text">
             <a href="#about">About</a>
           </div>
-          <div class="a-box-text">
+          <div class="a-box text">
             <a href="#education">Education</a>
           </div>
-          <div class="a-box-text">
+          <div class="a-box text">
             <a href="#projects">Projects</a>
           </div>
         </div>
-        <div class="contacts-side">
+        <div class="contacts-nav">
           <h1>CONTACT ME!</h1>
-          <ul class="a-box-social" v-for="contact in contacts">
+          <ul class="a-box socialNav" v-for="contact in contacts">
             <li>
               <a :href="contact.handle" :class="contact.icon"
                 ><span>{{contact.name}}</span></a
@@ -119,15 +119,15 @@
               </div>
             </div>
           </section>
-          <div class="container ending">
+          <section class="container ending">
 <h1>Thanks for the visit!!!!</h1>
-          </div>
+          </section>
         </div>
         <div class="footer">
           <div class="contact-me">
             <h1>CONTACT ME!</h1>
             <div class="contacts-footer">
-              <ul class="a-box-social" v-for="contact in contacts">
+              <ul class="a-box socialFooter" v-for="contact in contacts">
                 <li>
                   <a :href="contact.handle" :class="contact.icon"
                     ><span>{{contact.name}}</span></a
