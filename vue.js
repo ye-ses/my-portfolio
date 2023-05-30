@@ -8,7 +8,8 @@ const app = Vue.createApp({
       contacts: [
         {
           name: "email",
-          handle: "nenzhelelen1@gmail.com",
+          handle:
+            "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=nenzhelelen1@gmail.com",
           icon: " bi bi-envelope-at-fill",
         },
         {
