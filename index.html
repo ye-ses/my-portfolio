@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nenzhelele Ndugelo Benjamini-portfolio</title>
+    <link rel="shortcut icon" href="src/illustrations/profile.png" type="image/x-icon">
     <link rel="stylesheet" href="index.css" />
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <link
@@ -103,20 +104,11 @@
                <p>Some of the projects i've done. <br> Mostly during my varsity time </p>
             </div>
             <div class="projects">
-              <div class="project"> 
-                  <img class="project-fill" src="src/illustrations/3d-stripy-black-calculator.png" alt="my_calculator">
+              <div v-for="project in projects" class="project"> 
+                  <img :class="project.class" :src="project.img" :alt="project.alt">
                 <div class="project-name">
-                  <p>calculator</p>
-                </div>
-              </div>
-              <div class="project">
-                <img class="project-fill" src="src/illustrations/doobry-task-list.png" alt="to-do list">
-                <div class="project-name"><p>To-do list</p></div>
-              </div>
-              <div class="project">
-                <img src="src/illustrations/business-3d-game-boy-side-view.png" alt="sos game" class="project-fill">
-                <div class="project-name"><p>SoS game</p></div>
-              </div>
+                  <a :href="project.git" rel="noopener noreferrer"  target="_blank">{{project.name}}</a>
+                </div> 
             </div>
           </section>
           <section class="container ending">

@@ -44,6 +44,29 @@ const app = Vue.createApp({
           year: "2022",
         },
       ],
+      projects: [
+        {
+          name: "calculator",
+          img: "src/illustrations/3d-stripy-black-calculator.png",
+          alt: "a simple calculator",
+          class: "project-fill",
+          git: "https://github.com/ye-ses/tiny-calculator",
+        },
+        {
+          name: "to-do list",
+          img: "src/illustrations/doobry-task-list.png",
+          alt: "to-do list app",
+          class: "project-fill",
+          git: "https://github.com/ye-ses/todo_list",
+        },
+        {
+          name: "sos-game",
+          img: "src/illustrations/business-3d-game-boy-side-view.png",
+          alt: "an android sos game, like xox",
+          class: "project-fill",
+          git: "",
+        },
+      ],
     };
   },
   k: "50%",
