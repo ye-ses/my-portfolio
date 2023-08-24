@@ -8,7 +8,8 @@ const app = Vue.createApp({
       contacts: [
         {
           name: "email",
-          handle: "nenzhelelen1@gmail.com",
+          handle:
+            "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=nenzhelelen1@gmail.com",
           icon: " bi bi-envelope-at-fill",
         },
         {
@@ -23,14 +24,14 @@ const app = Vue.createApp({
         },
       ],
       programmingSkills: [
-        { skill: "HTML", value: "45%" },
-        { skill: "CSS", value: "50%" },
-        { skill: "JAVASCRIPT", value: "30%" },
-        { skill: "React", value: "30%" },
-        { skill: "Vue", value: "10%" },
-        { skill: "C#", value: "60%" },
-        { skill: "JAVA", value: "40%" },
-        { skill: "Android Development", value: "35%" },
+        { skill: "HTML", value: "75%" },
+        { skill: "CSS", value: "70%" },
+        { skill: "JAVASCRIPT", value: "60%" },
+        { skill: "React", value: "65%" },
+        { skill: "Vue", value: "40%" },
+        { skill: "C#", value: "70%" },
+        { skill: "JAVA", value: "65%" },
+        { skill: "Android Development", value: "45%" },
       ],
       education: [
         {
@@ -51,6 +52,8 @@ const app = Vue.createApp({
           alt: "a simple calculator",
           class: "project-fill",
           git: "https://github.com/ye-ses/tiny-calculator",
+          link: "https://ye-ses.github.io/tiny-calculator/",
+          demo: "",
         },
         {
           name: "to-do list",
@@ -58,13 +61,17 @@ const app = Vue.createApp({
           alt: "to-do list app",
           class: "project-fill",
           git: "https://github.com/ye-ses/todo_list",
+          link: "",
+          demo: "",
         },
         {
-          name: "sos-game",
-          img: "src/illustrations/business-3d-game-boy-side-view.png",
-          alt: "an android sos game, like xox",
+          name: "Multi-calculator",
+          img: "src/illustrations/3d-stripy-black-calculator.png",
+          alt: "multiple calculators, like xox",
           class: "project-fill",
-          git: "",
+          git: "https://github.com/ye-ses/multi-calculator",
+          link: "https://ye-ses.github.io/multi-calculator/",
+          demo: "#",
         },
       ],
     };
