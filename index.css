@@ -100,7 +100,7 @@
     display: inline-block;
     font-size: 1.8em;
     padding: 5px;
-    max-height: 0.9em;
+    max-height: 0.8em;
     margin: 0 5px;
     color: var(--adjacent-2);
     background: none;
@@ -425,7 +425,7 @@ a {
 
 .projects {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
     gap: 1em;
     width: 70%;

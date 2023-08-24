@@ -52,6 +52,8 @@ const app = Vue.createApp({
           alt: "a simple calculator",
           class: "project-fill",
           git: "https://github.com/ye-ses/tiny-calculator",
+          link: "https://ye-ses.github.io/tiny-calculator/",
+          demo: "",
         },
         {
           name: "to-do list",
@@ -59,6 +61,8 @@ const app = Vue.createApp({
           alt: "to-do list app",
           class: "project-fill",
           git: "https://github.com/ye-ses/todo_list",
+          link: "",
+          demo: "",
         },
         {
           name: "Multi-calculator",
@@ -66,6 +70,8 @@ const app = Vue.createApp({
           alt: "multiple calculators, like xox",
           class: "project-fill",
           git: "https://github.com/ye-ses/multi-calculator",
+          link: "https://ye-ses.github.io/multi-calculator/",
+          demo: "#",
         },
       ],
     };
