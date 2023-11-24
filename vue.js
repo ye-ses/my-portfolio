@@ -26,7 +26,7 @@ const app = Vue.createApp({
       programmingSkills: [
         { skill: "HTML", value: "75%" },
         { skill: "CSS", value: "70%" },
-        { skill: "JAVASCRIPT", value: "60%" },
+        { skill: "JAVASCRIPT", value: "80%" },
         { skill: "React", value: "65%" },
         { skill: "Vue", value: "40%" },
         { skill: "C#", value: "70%" },
@@ -53,16 +53,16 @@ const app = Vue.createApp({
           class: "project-fill",
           git: "https://github.com/ye-ses/tiny-calculator",
           link: "https://ye-ses.github.io/tiny-calculator/",
-          demo: "",
+          demo: "#",
         },
         {
-          name: "to-do list",
-          img: "src/illustrations/doobry-task-list.png",
-          alt: "to-do list app",
+          name: "Brandisschools",
+          img: "src/illustrations/Website designer-amico.svg",
+          alt: "school website demo",
           class: "project-fill",
-          git: "https://github.com/ye-ses/todo_list",
-          link: "",
-          demo: "",
+          git: "https://github.com/Brandis-Moth/School-Website-V3",
+          link: "https://www.brandisschools.co.za/",
+          demo: "#",
         },
         {
           name: "Multi-calculator",
@@ -77,6 +77,10 @@ const app = Vue.createApp({
     };
   },
   k: "50%",
-  methods: {},
+  methods: {
+    redirect(link) {
+      open(link)
+    }
+  },
 });
 app.mount("#vue");

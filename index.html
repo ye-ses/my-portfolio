@@ -50,9 +50,9 @@
               <span><br> welcome to my portfolio site </span>
             </p>
             <p>
-              I recently graduated from Nelson Mandela University doing BSc
-              Computer Science and Mathematical statistics. I know a thing or
-              two.
+              I graduated from Nelson Mandela University with a BSc degree in
+              Computer Science and Statistics. I know a thing or
+              two about computers.
             <p>
               I've done GUIs for windows as well as android applications
               Outside of my caricullum i've done web apps and learned new
@@ -99,13 +99,13 @@
         <section class="container" id="projects">
           <div class="words" id="project-words">
             <h1> Projects</h1>
-            <p>Some of the projects i've done. <br> Mostly during my varsity time </p>
+            <p>Some of the projects i've done. <br> </p>
           </div>
           <div class="projects">
             <div v-for="project in projects" class="project">
-              <img :class="project.class" :src="project.img" :alt="project.alt">
+              <img :class="project.class" :src="project.img" :alt="project.alt" @click="redirect(project.git)">
               <div class="project-name">
-                <a :href="project.git" rel="noopener noreferrer" target="_blank">{{project.name}}</a>
+                <a :href="project.link" rel="noopener noreferrer" target="_blank">{{project.name}}</a>
               </div>
             </div>
         </section>
