@@ -61,7 +61,7 @@ const app = Vue.createApp({
           alt: "school website demo",
           class: "project-fill",
           git: "https://github.com/Brandis-Moth/School-Website-V3",
-          link: "https://www.brandisschools.co.za/",
+          link: "https://www.demo.brandisschools.co.za/",
           demo: "#",
         },
         {
