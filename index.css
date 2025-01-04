@@ -210,11 +210,12 @@ a {
     padding: 0.5em 3em;
     background: none;
     overflow: hidden;
+    margin-bottom: 2em;
 }
 
-.words p {
-    margin-top: 2em;
-    line-height: 1.6;
+.words p {  
+    margin-top: 1em;
+    line-height: 1.6; 
 }
 
 .illustration {
@@ -319,7 +320,7 @@ a {
 }
 
 #education {
-    padding: 0;
+    padding:0; 
     width: 100%;
     display: flex;
     gap: 1em;
@@ -380,6 +381,7 @@ a {
     height: 10em;
     background: none;
     margin-top: 2em;
+    margin-left: 8em;
 }
 
 .certificate-illustration img {

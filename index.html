@@ -1,6 +1,33 @@
 <html lang="en">
 
-<head>
+<head> 
+
+<!-- Viewport for responsive design -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Page description -->
+<meta name="description" content="Ndugelo's portfolio site showcasing skills in data analysis, machine learning, GUI development, and web apps with expertise in languages like C#, Java, R, and Python.">
+
+<!-- Author -->
+<meta name="author" content="Ndugelo Nenzhelele Benjamini">
+
+<!-- Keywords for SEO -->
+<meta name="keywords" content="Ndugelo,Nenzhelele, portfolio, data analysis, machine learning, GUI development, web apps, C#, Java, R, Python, statistical analysis, programming, software development">
+
+<!-- Robots for search engine indexing -->
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph for social media sharing -->
+<meta property="og:title" content="Ndugelo's Portfolio">
+<meta property="og:description" content="Explore Ben's skills in data analysis, machine learning, and software development with projects in C#, Java, R, and Python.">
+<meta property="og:image" content="code-background.jpg"> <!-- Add an image URL representing your portfolio -->
+<meta property="og:url" content="https://nenzhelelendugelo.netlify.app"> <!-- Replace with your portfolio URL -->
+<meta property="og:type" content="website">
+ 
+<!-- Favicon -->
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -44,26 +71,51 @@
       <div class="sections">
         <section class="container" id="about">
           <div class="words">
-            <h1>About <span>ME!</span></h1>
-            <p>
-              Hi! Ben here,
-              <span><br> welcome to my portfolio site </span>
-            </p>
-            <p>
-              I graduated from Nelson Mandela University with a BSc degree in
-              Computer Science and Statistics. I know a thing or
-              two about computers.
-            <p>
-              I've done GUIs for windows as well as android applications.<br>
-              Outside of my caricullum i've done web apps and learned new
-              languages and frameworks. I was assesed in C# and Java as
-              languages to program and manipulate data structures
-              incoporating OOPs principles.
-            </p>
-            </p>
+            <h1>About Me</h1>
+
+<p>
+    Hi! I'm Ben, 
+    <br>welcome to my portfolio site. 
+</p>
+
+<p>
+    I graduated from Nelson Mandela University with a BSc in Computer Science and Statistics, 
+    followed by a BSc Honours degree in Mathematical Statistics. 
+    I have a strong foundation in both data science and computer science. 
+</p>
+
+<p>
+    I have experience in developing Graphical User Interfaces (GUIs) for both Windows and Android platforms. 
+    During my Honours year, I focused on advanced topics such as data analysis, 
+    machine learning, sampling theory, and Bayesian statistics. 
+</p>
+
+<p>
+    Beyond my academic coursework, I've actively engaged in personal projects, 
+    including building web applications and learning new programming languages and frameworks. 
+    I am proficient in C# and Java, with a solid understanding of Object-Oriented Programming (OOP) principles 
+    and their application in data manipulation and data structure implementation.
+     For data analysis and machine learning tasks, I use R and Python. 
+</p>
+ 
           </div>
           <div class="illustration" id="about-illustration">
             <img src="src/illustrations/undraw_profile_re_4a55.svg" alt="">
+          </div>
+        </section>
+        <section class="container" id="education">
+          <div class=" words" id="education-words">
+            <h1><span>MY</span>Education</h1>
+            <div class="qualifications">
+              <div v-for="qualification in education">
+                <span id=" institution">{{qualification.institution}}</span><br>
+                <span id=" qualification-name">{{qualification.qualification}}</span><br>
+                <span id="year">{{qualification.year}}</span>
+              </div>
+            </div>
+          </div>
+          <div class=" certificate-illustration">
+            <img src="src/illustrations/undraw_certificate_re_yadi.svg" alt="">
           </div>
         </section>
         <section class="skills">
@@ -81,21 +133,7 @@
               download="Ndugelo_Nenzhelele">Download
               CV</a></button>
         </section>
-        <section class="container" id="education">
-          <div class=" words" id="education-words">
-            <h1><span>MY</span>Education</h1>
-            <div class="qualifications">
-              <div v-for="qualification in education">
-                <span id=" institution">{{qualification.institution}}</span><br>
-                <span id=" qualification-name">{{qualification.qualification}}</span><br>
-                <span id="year">{{qualification.year}}</span>
-              </div>
-            </div>
-          </div>
-          <div class=" certificate-illustration">
-            <img src="src/illustrations/undraw_certificate_re_yadi.svg" alt="">
-          </div>
-        </section>
+     
         <section class="container" id="projects">
           <div class="words" id="project-words">
             <h1> Projects</h1>

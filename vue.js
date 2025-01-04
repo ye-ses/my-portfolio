@@ -26,24 +26,31 @@ const app = Vue.createApp({
       programmingSkills: [
         { skill: "HTML", value: "75%" },
         { skill: "CSS", value: "70%" },
-        { skill: "JAVASCRIPT", value: "80%" },
+        { skill: "Python", value: "50%" },
+        { skill: "JAVASCRIPT", value: "70%" },
         { skill: "React", value: "65%" },
-        { skill: "Vue", value: "40%" },
-        { skill: "C#", value: "70%" },
-        { skill: "JAVA", value: "65%" },
-        { skill: "Android Development", value: "45%" },
+        { skill: "Vue", value: "25%" },
+        { skill: "C#", value: "65%" },
+        { skill: "JAVA", value: "55%" },
+        { skill: "Android Development", value: "35%" },
       ],
       education: [
         {
-          institution: "Thengwe Secondary School",
-          qualification: "Matric",
-          year: "2017",
+          institution: "Nelson Mandela University",
+          qualification: "(Honours) BSc Mathematical Statistics",
+          year: "2024",
         },
         {
           institution: "Nelson Mandela University",
           qualification: "BSc Computer Science and Mathematical Statistics",
           year: "2022",
         },
+        {
+          institution: "Thengwe Secondary School",
+          qualification: "Matric",
+          year: "2017",
+        },
+       
       ],
       projects: [
         {
