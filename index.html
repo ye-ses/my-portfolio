@@ -141,9 +141,9 @@
           </div>
           <div class="projects">
             <div v-for="project in projects" class="project">
-              <img :class="project.class" :src="project.img" :alt="project.alt" @click="redirect(project.git)">
+              <img :class="project.class" :src="project.img" :alt="project.alt" @click="redirect(project.link)">
               <div class="project-name">
-                <a :href="project.link" rel="noopener noreferrer" target="_blank">{{project.name}}</a>
+                <a :href="project.git" rel="noopener noreferrer" target="_blank">{{project.name}}</a>
               </div>
             </div>
         </section>

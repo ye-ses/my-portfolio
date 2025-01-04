@@ -448,7 +448,8 @@ a {
     height: 100%;
     -webkit-mask-image: linear-gradient(var(--primary), transparent);
     mask-image: linear-gradient(var(--primary), transparent);
-    cursor: url("./src/illustrations/icons8-github-30.png"), move;
+    cursor: url("./src/illustrations/icons8-link-16.png"), auto;
+
 }
 
 .project-name {
@@ -458,7 +459,8 @@ a {
     padding: 0.4em 1em 0.2em 0.5em;
     border-radius: 0 0.5em 0 0;
     width: 100%;
-    cursor: pointer;
+    cursor: url("./src/illustrations/icons8-github-30.png"), auto;
+
 }
 
 .project-name p {
